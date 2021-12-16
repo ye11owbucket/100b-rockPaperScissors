@@ -1,5 +1,5 @@
 ## SDSS Computing Studies Python Assignment
-### Assignment #100a Battelship
+### Assignment #100b Rock Paper Scissors
 
 #### Introduction
 This assignment takes components that could be used to create the classic boardgame "Battleship". This is the game where you place your ships on a 10x10 grid, and then take turns attacking square in the grid, hoping to hit your opponents ships.  
