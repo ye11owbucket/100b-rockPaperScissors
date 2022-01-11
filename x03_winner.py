@@ -17,13 +17,14 @@ Output:
 1: player wins
 '''
 
-def playerWins(computer,player):
-  
-  return 0
+def playerWins(c,p):
+  c = float(c)
+  p = float(p)
+  yussir =  p - c
+  return yussir
 
 if __name__ == "__main__":
   assert playerWins(1,1) == 0
   assert playerWins(1,0) == -1
   assert playerWins(1,2) == 1
   assert playerWins(2,1) == -1
-  

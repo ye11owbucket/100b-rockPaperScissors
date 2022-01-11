@@ -10,10 +10,8 @@ output:
 """
 
 def computerChoice():
-  
-  
-  
-  
+  import random
+  value = random.randint(0,2)
   return value
 
 

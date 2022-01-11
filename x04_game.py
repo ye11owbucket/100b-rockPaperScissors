@@ -12,3 +12,10 @@ from x03_winner import *
 if __name__ == "__main__":
   pass
 
+def RockPaperScissors():
+  a = playerChoice()
+  b = computerChoice()
+  c = playerWins(b, a)
+  return c
+
+print(RockPaperScissors())
