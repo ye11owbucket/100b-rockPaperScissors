@@ -19,12 +19,13 @@ def playerChoice():
   x = str(input("enter: "))
   if x == "rock":
     x = 0
-  if x == "paper":
+  elif x == "paper":
     x = 1
-  if x == "scissors":
+  elif x == "scissors":
     x = 2
-  return x
-
+  else:
+    x = 66
+  return int(x)
 
 if __name__ == "__main__":
   player = playerChoice()

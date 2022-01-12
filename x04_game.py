@@ -12,10 +12,26 @@ from x03_winner import *
 if __name__ == "__main__":
   pass
 
-def RockPaperScissors():
+def rockpapersciss0rs():
+  output = 0
   a = playerChoice()
   b = computerChoice()
   c = playerWins(b, a)
-  return c
+  if c == 66:
+    output = "invalid input"
+  elif c == -1: 
+    output = "you lost. try again."
+  elif c == 2:
+    output = "you lost. try again."
+  elif c == 0: 
+    output = "ahh, a stalemate. try again"
+  elif c == 1:
+    output = "congrats! you won!"
+  elif c == -2:
+    output = "congrats! you won!"
+  else:
+    output = "hell naw spunch bob"
+  return output
 
-print(RockPaperScissors())
+print(rockpapersciss0rs())
+

@@ -18,13 +18,17 @@ Output:
 '''
 
 def playerWins(c,p):
-  c = float(c)
-  p = float(p)
-  yussir =  p - c
-  return yussir
-
+  if p == 66:
+    yussir = 66
+  else:
+    c = int(c)
+    p = int(p)
+    yussir =  p - c
+  return (yussir)
 if __name__ == "__main__":
   assert playerWins(1,1) == 0
   assert playerWins(1,0) == -1
   assert playerWins(1,2) == 1
   assert playerWins(2,1) == -1
+  assert playerWins(0,2) == 2
+  assert playerWins(2,0) == -2
